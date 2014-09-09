@@ -1,0 +1,20 @@
+Material Lambert "r" Color= (1, 0, 0)
+Material Lambert "g" Color= (0, 1, 0)
+Material Lambert "b" Color= (0, 0, 1)
+Material Default "c"
+
+Sphere (-1, 0, 0) (0) (0.75) "r"
+Box (2, 0, -2) (0) (0.75) "g"
+Cone (0, 0, 2) (0) (0.75) "b"
+Cone (2, 0, 2) (0, 180, 0) (0.75) "r"
+Cylinder (2, 0, 0) (0, 0, 0) (0.75) "g"
+
+Box (5, -1, 0) (0) (10, 0.01, 10) "c"
+
+Light Point Shadows (16) (1, 4, 0)
+Light Directional NoShadows (1) (1, -1, 1)
+
+Background (0.4)
+
+Camera (-5, 5, 0) (0.5, 0, 0) (0, 1, 0) 60
+Globals 100 20

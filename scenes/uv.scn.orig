@@ -1,0 +1,21 @@
+Material Default "uv"
+
+
+<<<<<<< HEAD
+#Sphere (-1, 0, 0) (0) (0.75) "uv"
+Box (2, 0, -2) (0) (0.75) "uv"
+#Cone (0, 0, 2) (0) (0.75) "uv"
+=======
+Sphere (-1, 0, 0) (0) (0.75) "uv"
+Box (2, 0, -2) (0) (0.75) "uv"
+Cone (0, 0, 2) (0) (0.75) "uv"
+>>>>>>> 84e85f26bce4e033d340bdc7d2faf34d432517ed
+#Cone (2, 0, 2) (0, 180, 0) (0.75) "uv"
+Cylinder (2, 0, 0) (0, 0, 0) (0.75) "uv"
+
+Light Directional NoShadows (4) (-4, 4, 0)
+
+Background (0.4)
+
+Camera (0, 3, 0) (2, 0, -2) (0, 1, 0) 60
+Globals 100 20

@@ -1,0 +1,14 @@
+Material Default "uv" Texture= ../../scenes/wood.tga
+
+Sphere (-1, 0, 0) (180, 270, 0) (0.75) "uv"
+Box (2, 0, -2) (0) (0.75) "uv"
+Cone (0, 0, 2) (0, 270, 0) (0.75) "uv"
+Cone (2, 0, 2) (0, 270, 180) (0.75) "uv"
+Cylinder (2, 0, 0) (0, 270, 0) (0.75) "uv"
+
+Light Directional NoShadows (4) (-5, 5, 0)
+
+Background (0.4)
+
+Camera (-5, 5, 0) (0.5, 0, 0) (0, 1, 0) 60
+Globals 100 20

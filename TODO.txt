@@ -1,0 +1,1 @@
+-Surtout faire le materiau DEFAULT uv qui utilise la classe parente (pas besoin de faire de classe enfant) 

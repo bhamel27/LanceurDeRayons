@@ -1,0 +1,26 @@
+Material BlinnPhong "r" Color= (1, 0, 0) Shininess= 1
+Material BlinnPhong "g" Color= (0, 1, 0) Shininess= 10
+Material BlinnPhong "b" Color= (0, 0, 1) Shininess= 200
+Material Default "c"
+
+Box (3, 0, -2) (0) (0.75) "r"
+Cylinder (3, 0, 0) (0, 0, 0) (0.75) "g"
+Sphere (3, 0, 2) (0) (0.75) "b"
+
+Box (-1, 0, -2) (0) (0.75) "b"
+Cylinder (-1, 0, 0) (0, 0, 0) (0.75) "g"
+Sphere (-1, 0, 2) (0) (0.75) "r"
+
+Box (5, -0.751, 0) (0) (10, 0.01, 10) "c"
+
+Light Point NoShadows (2) (1, 0, 0)
+Light Point NoShadows (2) (1, 0, -2)
+Light Point NoShadows (2) (1, 0, 2)
+Light Point NoShadows (2) (-1, 1.1, -2)
+
+Light Directional Shadows (20) (1, -1, 1)
+
+Background (0.4)
+
+Camera (-5, 5, 0) (0.5, 0, 0) (0, 1, 0) 60
+Globals 100 20

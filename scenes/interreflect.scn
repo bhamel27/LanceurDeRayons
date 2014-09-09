@@ -1,0 +1,16 @@
+Material Default "checker"
+Material Reflective "refl1" Color= (1, 1, 0.8)
+Material Reflective "refl2" Color= (1, 0.8, 1)
+
+Sphere (3, 2, -1.5) (0) (1) "refl1"
+Sphere (2, 1, 1.5) (0) (1) "refl2"
+
+Box (4, 0, 0) (0) (10, 0.1, 10) "checker"
+Box (4, 3, 0) (0) (10, 0.1, 10) "checker"
+
+Light Directional NoShadows (8) (0.2, 1, 0)
+
+Background (0.4)
+
+Camera (-1, 2, 0) (2, 1, 0) (0, 1, 0) 80
+Globals 100 20
